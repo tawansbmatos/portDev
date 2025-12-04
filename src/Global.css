@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+    /* Variáveis de Cores */
+    :root {
+        --color-primary: #4f46e5; /* Índigo */
+        --color-primary-dark: #3730a3;
+        --color-sidebar-bg: #3730a8;
+        --color-text-light: #eef2ff;
+        --color-text-inactive: #c7d2fe;
+        --color-background: #0A0F1C;
+        --color-white: #ffffff;
+        --color-hoverb: #3A6EFF;
+        --color-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+      .app-container {
+        display: flex;
+        width: 81.3%;
+        margin-left: 18.7%;
+        min-height: 100vh;
+        padding: 30px;
+        
+        font-family: 'Inter', sans-serif;
+        background-color: var(--color-background);
+    }
